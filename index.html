@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <style>
+         body{
+            background-color: yellow;
+            margin: 0;
+            padding: 0;
+            height: 100vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Figtree", sans-serif;
+         }
+         .Main{
+            height: 70vh;
+            width: 60vh;
+            background-color: white;
+            box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            position: relative;
+            border: 1px solid black;
+         }
+         .Image img{
+            height: 39vh;
+            width: 60vh;
+            border-radius: 27px 27px 0px 0px;
+            position: absolute;
+            top: -10.5px;
+         }
+
+        .Text #up-tag{
+            color: white;
+            border-radius: 2px;
+            font-size: 0.7em;
+            font-weight: 600;
+            margin-top: 38vh;
+            margin-left: 1vh;
+            background-color: red;
+            position: absolute;
+        }
+
+        .Text h1{
+            color: black;
+            font-size: 1.5em;
+            font-weight: 800;
+            margin-top: 41vh;
+            margin-left: 0.9vh;
+            position: absolute;
+        }
+
+        .Text p{
+            color: black;
+            font-size: 0.9em;
+            margin-top: 46vh;
+            margin-left: 0.9vh;
+            position: absolute;
+        }
+
+        .Text #tag{
+            color: black;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-top: 59vh;
+            margin-left: 1vh;
+            position: absolute;
+        }
+
+        .profile img{
+            height: 4vh;
+            width: 4vh;
+            border-radius: 27px 27px 0px 0px;
+            position: absolute;
+            top: 64vh;
+            left: 1vh;
+         }
+
+         .profile h3{
+            color: black;
+            font-size: 0.8em;
+            font-weight: 900;
+            top: 62.75vh;
+            left: 7vh;
+            position: absolute;
+        }
+
+
+    </style>
+    <title>Blog-card</title>
+</head>
+<body>
+    <div class="Main">
+    <div class="Image">
+     <img src="./images/illustration-article.svg" alt="Shubh-Devv">
+    </div>
+     <div class="Text">
+        <h3 id="up-tag">Technology</h3>
+        <h1>What's new in 2024 Tech</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit illo eos laudantium reiciendis nisi quasi delectus dolore sed exercitationem! Facilis, ad corrupti? Dolores at consequatur accusantium omnis quod quas facilis.</p>
+         <h3 id="tag">Published 25 Feb 2024</h3>
+    </div>
+    <div class="profile">
+        <img src="./images/image-avatar.webp" alt="profil">
+        <h3>Shubham Dubey</h3>
+     </div>
+  </div>
+</body>
+</html>
